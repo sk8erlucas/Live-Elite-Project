@@ -21,3 +21,27 @@
 	font-size: 3rem;
 	font-weight: bolder;
 }
+
+.textFrom {
+	background-image: url("../img/search bar plane take off.png");
+	background-repeat: no-repeat;
+    background-size: 50px;
+	
+	border: solid medium grey;
+	
+	height: 35px;
+}
+
+.textWhere {
+	background-image: url("../img/search bar plane landing.png");
+	background-repeat: no-repeat;
+    background-size: 50px;
+	
+	border: solid medium grey;
+	
+	height: 35px;
+}
+
+::placeholder {
+	padding-left: 65px;
+}
