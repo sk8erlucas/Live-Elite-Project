@@ -17,33 +17,124 @@
 	margin-top: 2rem;
 }
 
+.mb-05 {
+	margin-bottom: 0.5rem;
+}
+
 .subtitle {
 	font-size: 3rem;
 	font-weight: bolder;
 }
 
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	width: 100%
+}
+
+.col {
+    flex: 1;
+  }
+ 
+.col-05 {
+flex: 0.5;
+}
+
+.col-10 {
+flex: 1;
+}
+
+.col-15 {
+flex: 1.5;
+}
+
+.col-20 {
+flex: 2;
+}
+
+.col-25 {
+flex: 2.5;
+}
+
+.col-30 {
+flex: 3;
+}
+
+.col-35 {
+flex: 3.5;
+}
+
+.col-40 {
+flex: 4;
+}
+
+.col-45 {
+flex: 4.5;
+}
+
+.col-50 {
+flex: 5;
+}
+
+.col-55 {
+flex: 5.5;
+}
+
+.col-60 {
+flex: 6;
+}
+
+.col-65 {
+flex: 6.5;
+}
+
+.col-70 {
+flex: 7;
+}
+
+.col-75 {
+flex: 7.5;
+}
+
+.col-80 {
+flex: 8;
+}
+
+.col-85 {
+flex: 8.5;
+}
+
+.col-90 {
+flex: 9;
+}
+
+.col-95 {
+flex: 9.5;
+}
+
+.texts {
+	width: 100%;
+	height: 40px;
+	margin-top: 0.5rem;
+	
+	border: solid thin grey;
+	background-size: 30px;
+	background-position:left;
+	background-repeat: no-repeat;
+}
+
 .textFrom {
 	background-image: url("../img/search bar plane take off.png");
-	background-repeat: no-repeat;
-    background-size: 50px;
-	
-	border: solid medium grey;
-	
-	height: 35px;
 }
 
 .textWhere {
 	background-image: url("../img/search bar plane landing.png");
-	background-repeat: no-repeat;
-    background-size: 50px;
-	
-	border: solid medium grey;
-	
-	height: 35px;
 }
 
 ::placeholder {
-	padding-left: 65px;
+	padding-left: 50px;
 }
 
 .sponsors {
