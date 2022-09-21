@@ -775,7 +775,7 @@ body.dark-theme {
 
 .footer__content {
   grid-template-columns: repeat(2, max-content);
-  gap: 2.5rem 4rem;
+  gap: 2.5rem 3rem;
 }
 
 .footer__title {
@@ -784,7 +784,7 @@ body.dark-theme {
 }
 
 .footer__links {
-  row-gap: .5rem;
+  row-gap: .3rem;
 }
 
 .footer__link {
@@ -1172,7 +1172,7 @@ body.dark-theme {
     margin-bottom: 1.5rem;
   }
   .footer__links {
-    row-gap: 1rem;
+    row-gap: 0.3rem;
   }
   .footer__info {
     flex-direction: row;
